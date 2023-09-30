@@ -1,9 +1,39 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(/fonts/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: 'Scode';
+  src: url(/fonts/ScodeFont.ttf);
+}
+
 body {
-    padding: 50px;
-    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  }
-  
-  a {
-    color: #00B7FF;
-  }
-  
+  background-color: #023047 !important;
+}
+
+#logo{
+  height: 70px;
+}
+
+.navbar{
+  background-color: #023047;
+}
+
+.nav-link{
+  color: #fb8500 !important;
+  font-family: "Scode" !important;
+  font-size: small !important;
+}
+
+.nav-link:hover{
+  color: #ffb703 !important;
+}
+
+#wordDecoration{
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+  color: #faeb61;
+  font-weight: 500;
+}
+
