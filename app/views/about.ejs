@@ -1,0 +1,95 @@
+<%- include('partials/header.ejs') %>
+
+<%- include('partials/bootstrap.ejs') %>
+
+<%- include('partials/navbar.ejs') %>
+
+<body>
+
+  <h1 id="aboutTitle"><%= title %></h1>
+  <h2 id="assetAbout"><%= asset1 %></h2>
+
+  <table class="center">
+    <tr>
+      <td id="skillTitle">
+        Software --
+      </td>
+      <td valign="top"> 
+        <p id="skillItem" >Javascript</p>
+      </td>
+      <td valign="top">
+        <p id="skillItem">C#</p>
+      </td>
+      <td valign="top">
+        <p id="skillItem">Java</p>
+      </td>
+      <td valign="top">
+        <p id="skillItem">Python</p>
+      </td>
+      <td valign="top">
+        <p id="skillItem">HTML5</p>
+      </td>
+      <td valign="top">
+        <p id="skillItem">CSS</p>
+      </td>
+    </tr>
+  </table>
+  <table class="center">
+    <tr>
+      <td id="skillTitle">
+        Mechanical --
+      </td>
+      <td valign="top"> 
+        <p id="skillItem" >AutoCAD</p>
+      </td>
+      <td valign="top">
+        <p id="skillItem">Inventor</p>
+      </td>
+      <td valign="top">
+        <p id="skillItem">Fusion 360</p>
+      </td>
+      <td valign="top">
+        <p id="skillItem">Ansys</p>
+      </td>
+      <td valign="top">
+        <p id="skillItem">Solidworks</p>
+      </td>
+    </tr>
+  </table>
+  <table class="center">
+    <tr>
+      <td id="skillTitle">
+        Electrical --
+      </td>
+      <td valign="top"> 
+        <p id="skillItem" >Eagle</p>
+      </td>
+      <td valign="top">
+        <p id="skillItem">KiCAD</p>
+      </td>
+      <td valign="top">
+        <p id="skillItem">Proteus</p>
+      </td>
+    </tr>
+  </table>
+
+  <h2 id="assetAbout"><%= asset2 %></h2>
+
+  <p id="jobTitle"> <%= jobTitle1 %> </p>
+  <p id="jobDesc"> <%= jobDesc1 %> </p>
+  <br><br>
+  <p id="jobTitle"> <%= jobTitle2 %> </p>
+  <p id="jobDesc"> <%= jobDesc2 %> </p>
+
+  <h2 id="assetAbout"><%= asset3 %></h2>
+
+  <p id="jobTitle"> <%= Education1 %> </p>
+  <p id="jobDesc"> <%= EdDesc1 %> </p>
+  <br><br>
+  <p id="jobTitle"> <%= Education2 %> </p>
+  <p id="jobDesc"> <%= EdDesc2 %> </p>
+
+
+</body>
+
+<%- include ('partials/footer.ejs') %>
