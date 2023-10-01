@@ -12,11 +12,11 @@ body {
 }
 
 #logo{
-  height: 70px;
+  height: 60px;
 }
 
 .navbar{
-  background-color: #023047;
+  background-color: #01293d;
 }
 
 .nav-link{
@@ -37,3 +37,68 @@ body {
   font-weight: 500;
 }
 
+#homeTitle{
+  color:#ffb703;
+  margin-left: 2%;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 90px;
+}
+
+#profTitle{
+  margin-top: 1%;
+  color:#ffb703;
+  margin-left: 2%;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 40px;
+}
+
+#smallDesc{
+  margin-top: 1%;
+  color:#ffb8039f;
+  margin-left: 2%;
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 20px;
+  width: 70%;
+}
+
+#homeWelcomeMsg{
+  color:#ffb8039f;
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 5%;
+}
+
+#welcomeBlock{
+  margin-right: 2%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+b{
+  font-weight: 600 !important;
+  color:#ffb803db;
+}
+
+#mainInfoHome{
+  width: 45%;
+}
+
+#aboutBtn{
+  font-family: "Montserrat";
+  background-color: #fb8500;
+  text-align: center;
+  border-radius: 20px;
+  color: #023047;
+  text-decoration: none;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-weight: 600;
+  margin-top: 100px;
+}

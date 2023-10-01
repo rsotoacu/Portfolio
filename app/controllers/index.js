@@ -1,8 +1,7 @@
 module.exports.home = function (req, res, next) {
     res.render('index',
         {
-            title: 'COMP229',
-            username: 'Julio'
+            title: "Hello! I'm Rodrigo Soto",
         }
     );
 }
