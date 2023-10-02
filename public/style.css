@@ -1,3 +1,11 @@
+/* 
+  File: style.ss
+  Author: Rodrigo Soto
+  Student number: 301295478
+  Date: 01-10-2023
+*/
+
+
 @font-face {
   font-family: 'Montserrat';
   src: url(/fonts/Montserrat-VariableFont_wght.ttf);
@@ -104,11 +112,11 @@ b{
 }
 
 #aboutTitle{
-  color:#219ebc;
+  color:#ffb703;
   margin-left: 2%;
-  font-family: "Scode";
-  font-weight: 600;
-  font-size: 70px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 90px;
   margin-top: 4%;
 }
 
@@ -176,4 +184,151 @@ b{
   font-size: 20px;
   text-align: left;
   padding-bottom: 30px;
+}
+
+#projectsTitle{
+  color:#ffb703;
+  margin-left: 2%;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 90px;
+  margin-top: 4%;
+}
+
+#projectHeaders{
+  color:#fb8500;
+  font-family: "Scode";
+  font-weight: 500;
+  font-size: 17px;
+  text-align: left;
+  padding-top: 40px;
+}
+
+#projectInfo{
+  color:#f8d47a;
+  font-family: "Scode";
+  font-weight: 300;
+  font-size: 20px;
+  text-align: left;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+}
+
+#techItem{
+  color:#f8d47a;
+  font-family: "Scode";
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
+  background-color: #f8d47a54;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-bottom: 40px;
+}
+
+#projLinkImg{
+  border-radius: 20px;
+  width: 350px;
+}
+
+#projBlock{
+  border-bottom: 3px #fb860060 solid;
+}
+
+#projBlock:hover{
+  background-color: #f8d47a17;
+}
+
+#assetService{
+  color:#fb8500;
+  font-family: "Scode";
+  font-weight: 600;
+  font-size: 40px;
+  text-align: right;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+
+#serviceIcon{
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+  display: block;
+}
+
+#serviceNameL{
+  color:#f8d47a;
+  font-family: "Scode";
+  font-weight: 600;
+  font-size: 25px;
+  text-align: right;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+
+#serviceNameR{
+  color:#f8d47a;
+  font-family: "Scode";
+  font-weight: 600;
+  font-size: 25px;
+  text-align: left;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+#information{
+  color:#f8d47a;
+  font-family: "Scode";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#sbmtBtn{
+  font-family: "Scode";
+  background-color: #fb8500;
+  text-align: center;
+  border-radius: 20px;
+  color: #023047;
+  text-decoration: none;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-weight: 600;
+  margin-top: 20px;
+  border: none;
+}
+
+#resetBtn{
+  font-family: "Scode";
+  background-color: #fb8500;
+  text-align: center;
+  border-radius: 20px;
+  color: #023047;
+  text-decoration: none;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-weight: 600;
+  margin-top: 20px;
+  border: none;
+}
+
+#fName{
+  margin-bottom: 20px;
+}
+#lName{
+  margin-bottom: 20px;
+}
+#phone{
+  margin-bottom: 20px;
+}
+#email{
+  margin-bottom: 20px;
 }

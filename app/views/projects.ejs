@@ -1,3 +1,11 @@
+<!-- 
+  File: projects.ejs
+  Author: Rodrigo Soto
+  Student number: 301295478
+  Date: 01-10-2023
+ -->
+
+
 <%- include('partials/header.ejs') %>
 
 <%- include('partials/bootstrap.ejs') %>
@@ -6,21 +14,83 @@
 
 <body>
 
-  <table id="welcomeBlock">
+  <h1 id="projectsTitle"><%= title %></h1>
+
+  <table class="center" style="width: 90%;">
     <tr>
-      <td id="mainInfoHome">
-        <h1 id="homeTitle"><%= title %></h1>
-        <h2 id="profTitle">Mechatronics Engineer</h2>
-        <h3 id="smallDesc">Recent graduate in Mechatronics Engineering eager to apply academic knowledge and learnings to contribute as a valuable team member.</h3>
+      <th id="projectHeaders">
+        Year
+      </th>
+      <th id="projectHeaders">
+        Project
+      </th>
+      <th id="projectHeaders">
+        Made at
+      </th>
+      <th id="projectHeaders">
+        Technologies
+      </th>
+      <th id="projectHeaders">
+        Link
+      </th>
+    </tr>
+    <tr id="projBlock">
+      <td id="projectInfo">
+        2023
       </td>
-      <td valign ="top">
-        <p id="homeWelcomeMsg">As a recent graduate in <b>Mechatronics Engineering</b>, I am excited to embark on a career path that allows me to apply the comprehensive knowledge and skills acquired during my academic journey. <br> <br>While I may not have direct professional experience, my academic coursework has equipped me with a solid foundation in <b>mechanical, electronic, and computer engineering</b>, enabling me to understand and work with complex systems and automation technologies. <br><br>My ability to grasp intricate engineering concepts, coupled with a strong work ethic and dedication to continuous learning, positions me as a <b>motivated and adaptable candidate</b> ready to contribute effectively to a dynamic engineering team. I am committed to taking on challenges, embracing new technologies, and rapidly evolving into a capable Mechatronics Engineer in a professional setting.</p>
-        <a href="#" id="aboutBtn">About me</a>
+      <td id="projectInfo">
+        <b><%= asset1 %></b>
+      </td>
+      <td id="projectInfo">
+        Centennial College
+      </td>
+      <td id="projectInfo">
+        <p id="techItem">HTML5</p>
+        <p id="techItem">Javascript</p>
+        <p id="techItem">CSS</p>
+      </td>
+      <td id="projectInfo">
+        <a href="http://studentweb.cencol.ca/rsotoacu/finalProject/index.html"><img src="/img/proj1Thumbnail.png" alt="Real State Link" id="projLinkImg"></a>
+      </td>
+    </tr>
+    <tr id="projBlock">
+      <td id="projectInfo">
+        2023
+      </td>
+      <td id="projectInfo">
+        <b><%= asset2 %></b>
+      </td>
+      <td id="projectInfo">
+        Centennial College
+      </td>
+      <td id="projectInfo">
+        <p id="techItem">HTML5</p>
+        <p id="techItem">Javascript</p>
+        <p id="techItem">CSS</p>
+      </td>
+      <td id="projectInfo">
+        <a href="http://studentweb.cencol.ca/rsotoacu/COMP125/assignment%203/index.html"><img src="/img/proj2Thumbnail.png" alt="Bug Smasher link" id="projLinkImg"></a>
+      </td>
+    </tr>
+    <tr id="projBlock">
+      <td id="projectInfo">
+        2023
+      </td>
+      <td id="projectInfo">
+        <b><%= asset3 %></b>
+      </td>
+      <td id="projectInfo">
+        Centennial College
+      </td>
+      <td id="projectInfo">
+        <p id="techItem">HTML5</p>
+        <p id="techItem">CSS</p>
+      </td>
+      <td id="projectInfo">
+        <a href="http://studentweb.cencol.ca/rsotoacu/assignment3/index.html"><img src="/img/proj3Thumbnail.png" alt="Bike Store link" id="projLinkImg"></a>
       </td>
     </tr>
   </table>
-
-
 
 
 </body>

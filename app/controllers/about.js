@@ -1,7 +1,12 @@
+// File: about.js
+// Author: Rodrigo Soto
+// Student number: 301295478
+// Date: 01-10-2023
+
 module.exports.about = function (req, res, next) {
     res.render('about',
         {
-            title: "About me...",
+            title: "About me",
             asset1: "Skills",
             asset2: "Work experience",
             asset3: "Education",
