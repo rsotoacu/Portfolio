@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "start": "node ./server.js",
-    "build": "npm run build"
+    "build": "rm -rf dist && babel backend -d dist && cd frontend && npm install && npm run build"
   },
   "dependencies": {
     "bootstrap": "^5.3.2",
